@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "product": "DCU",
+  "hardware_id": "raytac-mdbt50q-db-40",
+  "version": "1.1.0+0",
+  "version_fields": {
+    "major": 1,
+    "minor": 1,
+    "patch": 0,
+    "build": 0
+  },
+  "release_tag": "v1.1.0",
+  "release_api": "https://api.github.com/repos/dayfeather/dcu-firmware-releases/releases/tags/v1.1.0",
+  "asset_name": "DCU-1.1.0+0.bin",
+  "bytes": 145403,
+  "file_sha256": "9fd129399c589815c7569ed7ed357054171bcd06216697593dfec014f6b0b523",
+  "transport": "mcumgr-smp-ble",
+  "confirmation": "test-then-confirm-active-image",
+  "requires_authentication": false,
+  "notes": "DCU 1.1.0：BLE OTA 與韌體版本管理。公開資產為 AES-256-GCM 加密韌體，須使用相容 App 更新。",
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "key_id": "c08b78c70ee9fe58",
+    "nonce_base64": "1nuevcsVy5gdelpS",
+    "asset_name": "DCU-1.1.0+0.bin.enc",
+    "bytes": 145419,
+    "file_sha256": "60fc0499588204f4d63b58414f5fc96ffd0062ec4081a163c0e9daef3436fc10",
+    "download_url": "https://github.com/dayfeather/dcu-firmware-releases/releases/download/v1.1.0/DCU-1.1.0+0.bin.enc"
+  }
+}
