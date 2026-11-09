@@ -2,30 +2,30 @@
   "schema_version": 1,
   "product": "DCU",
   "hardware_id": "raytac-mdbt50q-db-40",
-  "version": "1.1.2+0",
+  "version": "1.1.3+0",
   "ble_name": "TPC_T626B00001",
   "version_fields": {
     "major": 1,
     "minor": 1,
-    "patch": 2,
+    "patch": 3,
     "build": 0
   },
-  "release_tag": "v1.1.2",
-  "release_api": "https://api.github.com/repos/dayfeather/dcu-firmware-releases/releases/tags/v1.1.2",
-  "asset_name": "DCU-1.1.2+0.bin",
-  "bytes": 145415,
-  "file_sha256": "2f0a3d84dfb94f9ba205cf78e8d6fc5311e99d4f05b7a597220baeb98f1e87c7",
+  "release_tag": "v1.1.3",
+  "release_api": "https://api.github.com/repos/dayfeather/dcu-firmware-releases/releases/tags/v1.1.3",
+  "asset_name": "DCU-1.1.3+0.bin",
+  "bytes": 145424,
+  "file_sha256": "914b4c7ce943d0b34beaf1c385f6175281501695282a68e512aabd126811bd6c",
   "transport": "mcumgr-smp-ble",
   "confirmation": "test-then-confirm-active-image",
   "requires_authentication": false,
-  "notes": "DCU 1.1.2+0：TPC_T626B00001。公開資產為 AES-256-GCM 加密韌體，須使用相容 App 更新。",
+  "notes": "DCU 1.1.3+0：TPC_T626B00001。公開資產為 AES-256-GCM 加密韌體，須使用相容 App 更新。",
   "encryption": {
     "algorithm": "AES-256-GCM",
     "key_id": "c08b78c70ee9fe58",
-    "nonce_base64": "CyFO8mpfFGi3gGOF",
-    "asset_name": "DCU-1.1.2+0.bin.enc",
-    "bytes": 145431,
-    "file_sha256": "ebbf1dcf76d657032cd321bc51538bbd7f8448fcb654d1b94a11c688fc79e9c6",
-    "download_url": "https://github.com/dayfeather/dcu-firmware-releases/releases/download/v1.1.2/DCU-1.1.2+0.bin.enc"
+    "nonce_base64": "Rj7VPFs9g3dcqwBF",
+    "asset_name": "DCU-1.1.3+0.bin.enc",
+    "bytes": 145440,
+    "file_sha256": "77c5e20cef183de9b792e54d23749e1b5d9e2a8de5097ccc510cd2bf399293fe",
+    "download_url": "https://github.com/dayfeather/dcu-firmware-releases/releases/download/v1.1.3/DCU-1.1.3+0.bin.enc"
   }
 }
