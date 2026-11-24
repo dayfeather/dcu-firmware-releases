@@ -2,23 +2,23 @@
   "schema_version": 1,
   "product": "FCI",
   "hardware_id": "nrf52832-qfaa",
-  "version": "1.0.5+0",
-  "asset_name": "FCI-1.0.5-TPC_T025B00099.bin",
-  "bytes": 174815,
-  "file_sha256": "e743c0093e9362f4627b3c9c894f2751a20a3a16fc70d816b4b4e2b281715135",
+  "version": "1.0.6+0",
+  "asset_name": "FCI-1.0.6-TPC_T025B00099.bin",
+  "bytes": 174992,
+  "file_sha256": "4cbb0450d3156872faadf87d75dddca0bb2d980f8ae1124bdbf44f8f17315437",
   "supported_names": [
     "TPC_T025B00099"
   ],
-  "release_tag": "fci-v1.0.5+0",
+  "release_tag": "fci-v1.0.6+0",
   "requires_authentication": false,
-  "notes": "自製 FCI 00099：修正觸發／復歸指令及狀態回覆。實際 LED 閃爍待更新後驗證；不適用其他 ID 或廠商設備。",
+  "notes": "自製 FCI 00099：觸發測試 60 秒後停止閃燈並清除測試狀態；手動復歸提前停止，再次觸發重新計時。計時與指令測試通過，實體 60 秒測試待驗證。僅適用此 ID。",
   "encryption": {
     "algorithm": "AES-256-GCM",
     "key_id": "c08b78c70ee9fe58",
-    "nonce_base64": "hzog/3LnpWa5jlXa",
-    "asset_name": "FCI-1.0.5-TPC_T025B00099.bin.enc",
-    "bytes": 174831,
-    "file_sha256": "b20d7da6ad84c2964218c47fe8cf8d461351a0bd601e4a7e09369c140f86caa8",
-    "download_url": "https://github.com/dayfeather/dcu-firmware-releases/releases/download/fci-v1.0.5+0/FCI-1.0.5-TPC_T025B00099.bin.enc"
+    "nonce_base64": "oFeqnsTOQS6RTPSt",
+    "asset_name": "FCI-1.0.6-TPC_T025B00099.bin.enc",
+    "bytes": 175008,
+    "file_sha256": "6939b7e0c18d567676a31a9fddb35bd9652c9af5499fa3d704069a822a98b67a",
+    "download_url": "https://github.com/dayfeather/dcu-firmware-releases/releases/download/fci-v1.0.6+0/FCI-1.0.6-TPC_T025B00099.bin.enc"
   }
 }
