@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "product": "FCI",
+  "hardware_id": "nrf52832-qfaa",
+  "version": "1.0.5+0",
+  "asset_name": "FCI-1.0.5-TPC_T025B00099.bin",
+  "bytes": 174815,
+  "file_sha256": "e743c0093e9362f4627b3c9c894f2751a20a3a16fc70d816b4b4e2b281715135",
+  "supported_names": [
+    "TPC_T025B00099"
+  ],
+  "release_tag": "fci-v1.0.5+0",
+  "requires_authentication": false,
+  "notes": "自製 FCI 00099：修正觸發／復歸指令及狀態回覆。實際 LED 閃爍待更新後驗證；不適用其他 ID 或廠商設備。",
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "key_id": "c08b78c70ee9fe58",
+    "nonce_base64": "hzog/3LnpWa5jlXa",
+    "asset_name": "FCI-1.0.5-TPC_T025B00099.bin.enc",
+    "bytes": 174831,
+    "file_sha256": "b20d7da6ad84c2964218c47fe8cf8d461351a0bd601e4a7e09369c140f86caa8",
+    "download_url": "https://github.com/dayfeather/dcu-firmware-releases/releases/download/fci-v1.0.5+0/FCI-1.0.5-TPC_T025B00099.bin.enc"
+  }
+}
